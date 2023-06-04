@@ -8,7 +8,7 @@ library(scales)
 library(dplyr)
 
 # Data ####
-RiskRed = read_xlsx("Data/RR_BEL.xlsx")
+RiskRed = read_xlsx("Data/CI_BEL.xlsx")
 RiskRed$Date = as.Date(RiskRed$Date)
 
 ## CI plot ####
