@@ -39,7 +39,7 @@ It contains one folder for _Codes_ and one folder for _Data_.
 
 The _Data_ folder contains a _Data_FR_ file which is a reworked version of the initial _Data_France_ file for the purpose of logistic regression. It contains data about PCR tests in France, by date, vaccination status, and age.
 
-Data regarding Belgium, can however not be published because of confidentiality reasons. It is available in the Appendix 1 file attached to the thesis, the data used in the code is the one in the _Data_BEL_ sheet (which is a slightly modified version of the _VE_REQUEST_ original data). To use it in the code, please extract the _Data_BEL_ sheet into a new .xlsx file called _Data_BEL_and add it to the _Data_ folder where the _Data_FR_ file is also placed.
+Data regarding Belgium, can not be published because of confidentiality reasons. However, it is available in the Appendix 1 file attached to the thesis, the data used in the code is the one in the _Data_BEL_ sheet (which is a slightly modified version of the _VE_REQUEST_ original data). To use it in the code, please extract the _Data_BEL_ sheet into a new .xlsx file called _Data_BEL_ and add it to the _Data_ folder where the _Data_FR_ file is also placed.
 
 The _Codes_ folder contains four files:
 - _Analysis - 14 days.R_: This code is for the 14-day case counting window analysis for primo-vaccination in France
@@ -56,7 +56,7 @@ It also contains a folder for _Codes_ and a folder for _Data_.
 
 The _Data_ folder contains three files:
 - _Data_FR_: another modified version of the initial _Data_France_ file, containing only the necessary info for the computation of Relative Risk Reduction
-- _CI_BEL_ : modified version of the initial _CI_BELGIUM_, containing the 14- day cumulative incidence by age group and vaccination status 
+- _CI_BEL_ : modified version of the initial _CI_BELGIUM_, containing the 14-day cumulative incidence by age group and vaccination status 
 - _Vaccin_FR_ : modified version of the initial _vacsi_FR_ file, containing only the necessary info for the computation of Relative Risk Reduction
 
 The _Code_ folder contains two files for RRR computation, one for Belgium and one for France. 
